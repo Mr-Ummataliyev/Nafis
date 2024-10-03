@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+}
+
+.mat-typography {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Variables */
+$primary-color: #2196f3;
+$secondary-color: #ff4081;
