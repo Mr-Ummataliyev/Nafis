@@ -3,12 +3,14 @@ html, body {
   
 }
 
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f9;
-}
 
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
 .mat-typography {
   font-family: 'Roboto', sans-serif;
 }
@@ -26,11 +28,6 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 600px) {
-  body {
-    padding: 0;
-  }
-}
 
 /* Reset styles */
 * {
